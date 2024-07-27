@@ -21,7 +21,7 @@ h1 {
 }
 
 #score, #timer {
-    position: absolute;
+    position: flex;
     top: 20px;
     font-size: 30px;
     color: rgb(0, 242, 255);
