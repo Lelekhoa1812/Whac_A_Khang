@@ -13,6 +13,7 @@ h1 {
 }
 
 #start-button {
+    margin-top: 50px;
     font-size: 20px;
     padding: 10px 20px;
     margin-bottom: 20px;
@@ -41,8 +42,8 @@ h1 {
 
 #game-board {
     background-color: rgb(170, 14, 40);
-    width: 500px;
-    height: 500px;
+    width: 450px;
+    height: 450px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
