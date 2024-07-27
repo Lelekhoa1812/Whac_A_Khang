@@ -9,10 +9,10 @@ body {
 }
 /* 
 h1 {
-/*     position: absolute; */
+    position: absolute;
     color: rgb(255, 145, 0);
-} */
-
+}
+ */
 #start-button {
 /*     margin-top: 10px; */
     font-size: 20px;
@@ -22,7 +22,7 @@ h1 {
 }
 
 #score-timer-container {
-/*     display: flex; */
+    display: flex;
     justify-content: space-between;
     width: 450px; /* Adjust as needed */
     position: relative;
