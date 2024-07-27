@@ -9,8 +9,10 @@
 <body>
     <h1>Whac a  Khang</h1>
     <button id="start-button">Start Game</button>
-    <div id="score">Score: 0</div>
-    <div id="timer">Time: 60</div>
+    <div id="score-timer-container">
+        <div id="score">Score: 0</div>
+        <div id="timer">Time: 60</div>
+    </div>
     <div id="game-board">
         <div class="circle" id="circle1"></div>
         <div class="circle" id="circle2"></div>
@@ -23,6 +25,7 @@
         <div class="circle" id="circle9"></div>
         <img src="hammer.png" id="hammer" />
     </div>
+    <audio id="scream-sound" src="scream.m4a"></audio>
     <div id="modal" class="modal">
         <div class="modal-content">
             <span class="close">&times;</span>
