@@ -14,10 +14,10 @@ h1 {
 }
 
 #start-button {
-    margin-top: 50px;
+    margin-top: 10px;
     font-size: 20px;
     padding: 10px 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     cursor: pointer;
 }
 
@@ -27,7 +27,7 @@ h1 {
     width: 450px; /* Adjust as needed */
     position: relative;
     top: 20px;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 #score, #timer {
