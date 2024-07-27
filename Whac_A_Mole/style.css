@@ -9,6 +9,8 @@ body {
 }
 
 #mode-container {
+    font-size: 20px;
+    color: rgb(255, 145, 0);
     margin-bottom: 10px;
 }
 
