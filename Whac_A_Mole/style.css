@@ -14,7 +14,7 @@ h1 {
 }
  */
 #start-button {
-/*     margin-top: 10px; */
+    margin-top: 10px;
     font-size: 20px;
     padding: 10px 20px;
 /*     margin-bottom: 10px; */
@@ -31,7 +31,6 @@ h1 {
 }
 
 #score, #timer {
-    position: absolute;
     color: rgb(0, 242, 255);
     font-weight: bold;
 }
