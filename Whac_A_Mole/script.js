@@ -12,7 +12,7 @@ const modal = document.getElementById('modal');
 const finalScoreDisplay = document.getElementById('final-score');
 const closeModal = document.querySelector('.close');
 const screamSound = document.getElementById('scream-sound');
-const modeSelect = document.getElementById('mode');
+const modeSelect = document.getElementById('mode-select');
 
 let currentRat;
 let gameInProgress = false;
