@@ -21,24 +21,26 @@ h1 {
     cursor: pointer;
 }
 
-#score, #timer {
-    position: flex;
+#score-timer-container {
+    display: flex;
+    justify-content: space-between;
+    width: 450px; /* Adjust as needed */
+    position: relative;
     top: 20px;
     font-size: 30px;
+}
+
+#score, #timer {
     color: rgb(0, 242, 255);
     font-weight: bold;
 }
-#timer {
-    left: central;
-    margin-left: 175px;
-}
+
 #score {
-/*     position: flex; */
-    left: central;
-    margin-right: 175px;
-    font-size: 30px;
     color: rgb(255, 0, 60);
-    font-weight: bold;
+}
+
+#timer {
+    color: rgb(0, 242, 255);
 }
 
 #game-board {
