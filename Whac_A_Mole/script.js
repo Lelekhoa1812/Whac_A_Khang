@@ -11,6 +11,7 @@ const startButton = document.getElementById('start-button');
 const modal = document.getElementById('modal');
 const finalScoreDisplay = document.getElementById('final-score');
 const closeModal = document.querySelector('.close');
+const screamSound = document.getElementById('scream-sound');
 
 function getRandomInt(max) {
     return Math.floor(Math.random() * max);
@@ -91,6 +92,7 @@ function onHammerMove(event) {
             score += 5;
             scoreDisplay.textContent = `Score: ${score}`;
             showBoom(ratRect.left, ratRect.top);
+            screamSound.play(); // Play the scream sound
             currentRat.remove();
             currentRat = null;
         }
