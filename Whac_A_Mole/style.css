@@ -30,12 +30,12 @@ h1 {
 }
 #timer {
     left: central;
-    margin-left: 150px;
+    margin-left: 175px;
 }
 #score {
-    position: flex;
+/*     position: flex; */
     left: central;
-    margin-right: 150px;
+    margin-right: 175px;
     font-size: 30px;
     color: rgb(255, 0, 60);
     font-weight: bold;
