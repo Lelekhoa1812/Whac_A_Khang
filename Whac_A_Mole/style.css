@@ -22,7 +22,7 @@ h1 {
 }
 
 #score-timer-container {
-    display: absolute;
+    display: flex;
     justify-content: space-between;
     width: 450px; /* Adjust as needed */
     position: relative;
