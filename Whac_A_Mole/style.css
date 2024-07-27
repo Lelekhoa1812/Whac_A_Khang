@@ -9,9 +9,19 @@ body {
 }
 
 #mode-container {
-    font-size: 20px;
-    color: rgb(255, 145, 0);
     margin-bottom: 10px;
+}
+
+#mode-label {
+    color: rgb(255, 145, 0); /* Orange color */
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+#mode-select {
+    font-size: 20px;
+    padding: 5px;
 }
 
 #start-button {
@@ -23,8 +33,9 @@ body {
 
 #score-timer-container {
     display: flex;
-    justify-content: space-between;
-    width: 450px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Adjust the gap as needed */
     position: relative;
     top: 20px;
     font-size: 20px;
@@ -38,10 +49,6 @@ body {
 
 #score {
     color: rgb(255, 0, 60);
-}
-
-#timer {
-    color: rgb(0, 242, 255);
 }
 
 #timer {
@@ -130,4 +137,3 @@ body {
     text-decoration: none;
     cursor: pointer;
 }
-ChatGPT
