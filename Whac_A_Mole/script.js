@@ -2,7 +2,7 @@ let score = 0;
 let timer;
 let timeLeft = 60;
 
-const rats = ['rat1.png', 'rat2.png', 'rat3.png', 'rat4.png', 'rat5.png'];
+const rats = ['rat1.png', 'rat2.png', 'rat3.png', 'rat4.png', 'rat5.png', 'rat6.png'];
 const circles = document.querySelectorAll('.circle');
 const timerDisplay = document.getElementById('timer');
 const scoreDisplay = document.getElementById('score');
